@@ -21,7 +21,7 @@ HOST_NAME="127.0.0.1" #set this to the hostname of your server
 PORT_NUMBER=8080 #choose a port
 class Pyro(BaseHTTPServer.BaseHTTPRequestHandler):
 	current_md5=md5.new(open("command.js").read()).digest()
-	SERVER_PATH="/media/cerebro/SecRes/Pyro/tests"#make sure there are no trailing '/'s
+	SERVER_PATH="[YOUR PATH HERE]"#make sure there are no trailing '/'s
 	def do_GET(s):
 		reqPath=s.path.split("/")[1:]
 		if reqPath[len(reqPath)-1]=="command.js":
