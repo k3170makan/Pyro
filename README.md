@@ -8,7 +8,8 @@ To start using Pyro you require no external packages! Most modern
 python installations should work fine!
 
 To run:
-	./Pyro.py
+	./SimpleServer.py
+
 Make sure that the hook.js and command.js is in the same path as Pyro.py
 and if you'd like to use the hooktest.js make sure to place it there too.
 
